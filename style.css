@@ -47,6 +47,7 @@ input{
     padding:5px;   
     border:1px solid black; 
     border-radius: 5px;
+    outline:none;
     box-sizing: border-box;
     transition: all 0.3s;
 }
@@ -54,6 +55,8 @@ input{
 input:valid{
     border:1px solid green;
 }
+
+
 
 input:invalid{
     border:1px solid red;
